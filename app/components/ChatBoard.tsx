@@ -4,7 +4,7 @@ import ChatForm from './ChatForm'
 
 const ChatBoard = () => {
   return (
-    <div>
+    <div className='w-full h-full flex flex-col'>
         <ChatMessages />
         <ChatForm />
     </div>

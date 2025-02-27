@@ -4,7 +4,7 @@ import { ingresarAlChat } from "@/lib/socket-client-actions"
 
 const LoginForm = () => {
   return (
-    <form className="p-32 m-auto border shadow-md flex flex-col space-y-4" action={ingresarAlChat}>
+    <form className="p-32 m-auto border shadow-md flex flex-col space-y-4 w-1/3" action={ingresarAlChat}>
      <Input type="text" name="nombre" id="nombre" placeholder="Nombre" />
      <Button type="submit">Ingresar</Button>
     </form>
